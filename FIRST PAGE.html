@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/first_one.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>
+ h1{
+    color:goldenrod;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ img {
+    float: right;
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease; 
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.image-container:hover img {
+    animation: bounce 0.6s ease infinite; /* Bounce effect on hover */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+ .c1{
+    color: rgb(250, 75, 165);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin: 20px;
+ }
+ ul{
+    place-items:center;
+     padding-right:700px
+ }
+li:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+body{
+    background-image: url("enbbbb.webp");
+    background-size: cover;
+}
+
+</style>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST PAGE</title>
+</head>
+<body>
+    <h1>IN ORDER TO BREAK THE MATRIX , YOU'LL NEED TO GET INTO IT AND BREAK IT !</h1>
+    <div class="image-container">
+    <img src="./FIRST PAGE_files/Enba.JPG" width="500px">
+    </div>
+    <div class="c1">
+    <p>Hello, and welcome to my first project in the Full Stack Development Workshop!</p>
+    <p style="color: rgb(159, 234, 67); font-family:cursive">This assignment marks the start of my journey in building modern and efficient web applications. I am thrilled to learn, explore, and enhance my programming skills throughout this workshop.</p>
+    <h3>Programming Languages I Know:</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+            </ul>
+    <p style="font-family:&#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif; color:rgb(223, 186, 173)">I look forward to applying these languages to create dynamic and user-friendly web applications. Stay tuned for updates as I progress in this workshop!</p>
+
+    </div>
+    <ul style="color: black; font-family:&#39;Gill Sans&#39;, &#39;Gill Sans MT&#39;, Calibri, &#39;Trebuchet MS&#39;, sans-serif;font-size:35px;" "="">
+        <li><strong>Name:</strong> ENBA SANKAR S</li>
+        <li><strong>Role:</strong> Pre Final-Year Student,DR Sivanthi Aditanar Engineering College, Tiruchendur</li>
+        <li><strong>Email:</strong> <a href="mailto:enbasankar03@gmail.com">enbasankar03@gmail.com</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+919080525660">+91 9080525660</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/enba-sankar-s-3a989025b?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">ENBA SANKAR </a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/ENBA22/FSD-WORKSHOP.git" target="_blank">https://github.com/ENBA22/FSD-WORKSHOP.git</a></li>
+    </ul>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
