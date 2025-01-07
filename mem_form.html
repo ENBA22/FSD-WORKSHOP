@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMBERSHIP FORM SURVEY</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+</head>
+ 
+<body>
+    <div class="en"><center><h1>MEMBERSHIP SATISFACTORY SURVEY!! <i><i class='bx bxs-buildings'></i></i></h1></center></div>
+    <div class="form">
+        <form action="survey.php" method="post">
+            <h5>Name <i><i class='bx bxs-rename' ></i></i><span>*</span></h5>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <h5>Address <i class='bx bxs-home-heart'></i> <span>*</span> </h5>
+            <input type="text" placeholder="Enter Your Address" style="width: 750px;"> <br>
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State"><br>
+            <input type="number" placeholder="Postal Code">
+            <input list="options" id="choices" name="choices" placeholder="Opinion over Membership" />
+            <datalist id="options">
+            <option value="Satisfied">
+            <option value="Disapointed">
+            <option value="Excellent">
+            </datalist>
+            <h5>Phone <i><i class='bx bxs-phone-call'></i></i></h5>    
+            <input type="number" placeholder="Enter Your Mobile NO">   
+            <h5>Account Number (Located At The Right Hand Top Of The Bill</h5>
+            <h5>StateMent In Bold) <Span>*</Span> <i><i class='bx bxs-user-circle' ></i></i></h5>
+            <input type="text" placeholder="Enter ACC NO" style="width: 750px;">
+            <h5>Email Address <i><i class='bx bxs-envelope' ></i></i></h5>
+            <input type="email" placeholder="Enter Your Email" style="width: 750px;">
+            <h5>For How Long you Are Being The Member in X Company ! <i><i class='bx bxs-buildings' ></i></i></h5>
+            <div class="radio-group">
+                <input type="radio" id="option1" name="choice" value="option1">
+                <label for="option1">Within A Year</label>
+    
+                <input type="radio" id="option4" name="choice" value="option4">
+                <label for="option1">11-19 Years</label>
+              <br>
+
+                <input type="radio" id="option2" name="choice" value="option2">
+                <label for="option2">1-5 Years</label>
+              
+                <input type="radio" id="option2" name="choice" value="option5">
+                <label for="option2">20+ Years</label>
+              <br>
+              
+                <input type="radio" id="option3" name="choice" value="option3">
+                <label for="option3">6-10 Years</label>
+              </div><br>
+              <center><button>Submit</button></center>
+              
+        </form>
+    </div>
+</body>
+</html>
