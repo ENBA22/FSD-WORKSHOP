@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Style3.css">
+</head>
+<body>
+    <h1>A Simple Calculator Using Html , Css and JavaScript</h1>
+    <div class="container">
+        <div class="Cal">
+        <input type="text" id="display" placeholder="0">
+        <button onclick="clears()">CE</button>
+        <button onclick="Deletes()" class="Enba"><i class='bx bxs-tag-x'></i></button>
+        <button onclick="Display('%')">%</button>
+        <button onclick="Display('/')">/</button>
+        <button onclick="Display('7')">7</button>
+        <button onclick="Display('8')">8</button>
+        <button onclick="Display('9')">9</button>
+        <button onclick="Display('*')"><i class='bx bxs-x-circle'></i></button>
+        <button onclick="Display('4')">4</button>
+        <button onclick="Display('5')">5</button>
+        <button onclick="Display('6')">6</button>
+        <button onclick="Display('+')"><i class='bx bx-plus-medical'></i></button>
+        <button onclick="Display('1')">1</button>
+        <button onclick="Display('2')">2</button>
+        <button onclick="Display('3')">3</button>
+        <button onclick="Display('-')"><i class='bx bxs-checkbox-minus' ></i></button>
+        <button onclick="Display('0')">0</button>
+        <button onclick="Display('.')">.</button>
+        <button onclick="Calculator()" class="callll">=</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
